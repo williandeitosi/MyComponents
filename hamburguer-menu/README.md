@@ -2,24 +2,36 @@
 
 Este componente é um menu hambúrguer estilizado com TailwindCSS.
 
-## Uso
+## 🛠️ Uso
 
 1. **Instale as dependências:**
 
-   Certifique-se de ter o TailwindCSS configurado no seu projeto.
+   Certifique-se de ter intalado:
+
+   - **TailwindCSS**
+   - **Phosphor**
+
+   ```bash
+   # Instalar TailwindCSS
+   npm install -D tailwindcss postcss autoprefixer
+   npx tailwindcss init -p
+
+   # Instalar Phosphor Icons
+   npm install @phosphor-icons/react
+   ```
 
 2. **Importe e use o componente:**
 
-   ```tsx
-   import { HamburgerMenu } from './HamburgerMenu';
+```tsx
+import { HamburgerMenu } from './HamburgerMenu';
 
-   function App() {
-     return (
-       <div>
-         <HamburgerMenu />
-       </div>
-     );
-   }
+function App() {
+  return (
+    <div>
+      <HamburgerMenu />
+    </div>
+  );
+}
 
-   export default App;
-   ```
+export default App;
+```
