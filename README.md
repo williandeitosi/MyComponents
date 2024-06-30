@@ -5,7 +5,7 @@ Este repositório contém componentes reutilizáveis desenvolvidos com React e e
 ## 🚧 Componentes Disponíveis
 
 1. [Menu Hambúrguer](./hamburguer-menu/README.md)
-2. [Cartão de Produto](./product-card/README.md)
+2. [Cartão de Produto](./card-product/README.md)
 
 ## 📚 Como Usar
 
